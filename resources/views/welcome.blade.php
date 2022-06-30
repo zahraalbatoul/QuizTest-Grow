@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Quiz-app Resto</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,12 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Quiz App
+                    Bienvenue dans quiz-app Resto 
                 </div>
 
                 <div class="links">
                     @if(Auth::user())
-                            <a href="{{route('topics.index')}}">All Topics</a>
+                            <a href="{{route('topics.index')}}">Cette application permet de mesurer la connaissance des candidats de l'historique et du mode de fonctionnement du restaurant</a>
                     @endif
                 </div>
             </div>
