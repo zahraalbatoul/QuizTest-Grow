@@ -86,7 +86,7 @@
 
                 <div class="links">
                     @if(Auth::user())
-                            <a href="{{route('topics.index')}}">Cette application permet de mesurer la connaissance des candidats de l'historique et du mode de fonctionnement du restaurant</a>
+                            <a href="{{route('topics.index')}}">Liste des sujets</a>
                     @endif
                 </div>
             </div>
